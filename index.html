@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta lang="en">
+		<meta charset="utf-8">
+		
+		<!-- CSS styling Eman-->
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+		
+		<!-- CSS styling LD-->
+		<link href="css/style2.css" rel="stylesheet" type="text/css" />
+		
+		<!-- CSS styling Eman-->
+		<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+		
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/cd075ba03a.js" crossorigin="anonymous"></script>
+		
+		<script src="js/js.js"></script>
+		<!--bootstrap & jquery-->
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> -->
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		
+	</head>
+	
+	
+	<body>
+	<!-- Adding Responsive Navigation bar - 12/4/2019 LD-->
+	
+		<section class="top_sec">
+		  <nav class="navbar navbar-light navbar-expand-sm" style="background-color:#fff;">
+		  <div class="container">
+			<a href="index.html"  class="navbar-brand topbrand"><img src="res/logo.png">
+			Bagels&Cream <a>
+			<button class="navbar-toggler" type="button"
+			  data-toggle="collapse" data-target="#myTogglerNav"
+			  aria-controls="myTogglerNav"
+			  aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+
+		 
+
+			<div class="collapse navbar-collapse" id="myTogglerNav">
+			  <div class="navbar-nav ml-sm-auto">
+				<a class="nav-item nav-link active nav-name" href="index.html">Home</a>
+				<!-- <a class="nav-item nav-link" href="projects/projectsHome.html">Projects</a> -->
+				
+				<a class="nav-item nav-link nav-name" href="#about">About</a>
+				<a class="nav-item nav-link nav-name" href="#foot">Contact</a>
+					<li class="nav-item">
+							<a class="nav-link nav-item nav-name" href="#order-list" data-toggle="collapse">Order Online <span class="caret"></span></a>
+							<div class="collapse" id="order-list">
+								<ul class="hidden-list navbar-nav d-flex flex-column">
+									<li class="nav-item">
+										<a class="nav-link nav-name" href="">Seamless</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link nav-name" href="">Grub Hub</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link nav-name" href="">Catering</a>
+									</li>
+								</ul>
+							</div>
+						</li>
+				<!-- <a class="nav-item nav-link" href="resume.html">Resume</a> -->
+				
+			  </div><!-- navbar -->      
+			</div><!-- collapse -->
+
+		  </div><!-- container -->
+		</nav><!-- nav -->
+	
+		
+		</section>
+		
+		<section class="welcome d-flex align-items-center">
+			<div class="container text-center">
+				<h1 id="title">BAGELS AND CREAM</h1>
+				<h3 class="subtitle" >Cafe & Deli</h3>
+				<a id="order-btn">See Our Menu</a>
+			</div>
+		
+		</section>
+		
+		<div id="about-section" class="d-flex align-items-center">
+			<div class="container">
+				<div class="row">
+					<div class="col col-12 col-md-4 col-lg-3 text-center">
+						<img id="img-about" src="res/welcome.jpg" class="img-responsive" />
+					</div> 
+					<div class="col col-12 col-md-8 col-lg-9">
+						<div class="col-inner">
+							<h2 class="text-justified">WELCOME TO BAGELS AND CREAM</h2>
+							<h4 class="text-justified">Restaurant Story</h4>
+							<p class="text-justified">We are a family-run, independent cafe offering the best quality bagels and lunch options, in stunning and contemporary surroundings. We offer a great place to meet, eat and socialise for breakfast or lunch, so please give us a call to pickup or deliver food to you or just pop in to say hello.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="specialties-section">
+			<div class="container specialties">
+				<h2 class="text-center">Our Specialties</h2>
+				<h3 class="text-center"><small>Please feel free to look over our menus or come into the cafe for our daily specials  </small></h3>
+				
+				<div class="row-wrapper">
+					<div class="row">
+						<div class="col col-12 col-md-4 col-lg-4">
+							<div class="col-inner">
+								<h6 class="text-center">Bagels</h6>
+								<p>Our bagels are kettle boiled prior to being baked. We bake our bagels and baked goods several times throughout the day to maintain taste and freshness.</p>
+							</div>
+						</div>
+						<div class="col col-12 col-md-4 col-lg-4">
+							<div class="col-inner">
+								<h6 class="text-center">Cafe</h6>
+								<p>We proudly carry Lavazza branded coffee and espresso beans. Our team is fully trained to make all types of drinks.</p>
+							</div>
+						</div>
+						<div class="col col-12 col-md-4 col-lg-4">
+							<div class="col-inner">
+								<h6 class="text-center">Sandwiches</h6>
+								<p>We offer breakfast all day long with veriety of lunch items. We have sandwiches, pininnis, fresh salads and many more items.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="specialties2-section">
+			<div class="container">
+				<h2 class="text-center">BAGELS AND CREAM SPECIALS</h2>
+				<h3 class="text-center">Our Recommendations</h3>
+				<!--
+				<div class="row-wrapper">
+ 					<div class="row">
+						<div class="col col-12 col-md-4 col-lg-4">
+							<div class="col-inner">
+								<img src="res/sp1.jpg" class="img-responsive sp-image" />
+								<div class="hidden-text text-center">
+									<h6 class="text-center">Bagels and...</h6>
+									<p>Nova Scotia Salmon, Scallion Cream Cheese, Tomato, Onion, Capers</p>
+								</div>
+							</div>
+						</div>
+						<div class="col col-12 col-md-4 col-lg-4">
+							<div class="col-inner">
+								<img src="res/sp2.jpg" class="img-responsive sp-image" />
+								<div class="hidden-text text-center">
+									<h6 class="text-center">The Bronx...</h6>
+									<p>Turkey Bacon, Onion, peppers, cheese, served with a side of bagel</p>
+								</div>
+							</div>
+						</div>
+						<div class="col col-12 col-md-4 col-lg-4">
+							<div class="col-inner">
+								<img src="res/sp3.jpg" class="img-responsive sp-image" />
+								<div class="hidden-text text-center">
+									<h6 class="text-center">Breakfast...</h6>
+									<p>Bacon Egg and Cheese on a bagel</p>
+								</div>
+							</div>
+						</div>
+					</div> 
+				</div>
+				-->
+				<!-- 
+				<div class="h-checkered">
+					<div class="row-wrapper">
+						<div class="row">
+							<div class="col col-med-4 col-lg-4">
+								<div class="col-inner">
+									<img src="res/sp1.jpg" class="img-responsive sp-image" />
+								</div>
+							</div>
+							<div class="col col-med-4 col-lg-4">
+								<div class="col-inner">
+									<div class="text-center">
+										<h6 class="text-center">The Bronx...</h6>
+										<p>Turkey Bacon, Onion, peppers, cheese, served with a side of bagel</p>
+									</div>
+								</div>
+							</div>
+							<div class="col col-med-4 col-lg-4">
+								<div class="col-inner">
+									<img src="res/sp3.jpg" class="img-responsive sp-image" />
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col-med-4 col-lg-4">
+								<div class="col-inner">
+									<div class="text-center">
+										<h6 class="text-center">Bagels and...</h6>
+										<p>Nova Scotia Salmon, Scallion Cream Cheese, Tomato, Onion, Capers</p>
+									</div>
+								</div>
+							</div>
+							<div class="col col-med-4 col-lg-4">
+								<div class="col-inner">
+									<img src="res/sp2.jpg" class="img-responsive sp-image" />
+								</div>
+							</div>
+							<div class="col col-med-4 col-lg-4">
+								<div class="col-inner">
+									<div class="text-center">
+										<h6 class="text-center">Breakfast...</h6>
+										<p>Bacon Egg and Cheese on a bagel</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div> 
+				-->
+				<div class="v-checkered">
+					<div class="row-wrapper">
+						<div class="row d-flex justify-content-center">
+							<div class="col col-md-4 col-lg-4">
+								<div class="col-inner">
+									<img src="res/sp1.jpg" class="img-responsive sp-image" />
+								</div>
+							</div>
+							<div class="col col-md-4 col-lg-4">
+								<div class="col-inner">
+									<div class="text-center">
+										<h6 class="text-center">Bagels and...</h6>
+										<p>Nova Scotia Salmon, Scallion Cream Cheese, Tomato, Onion, Capers</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row d-flex justify-content-center">
+							<div class="col col-md-4 col-lg-4">
+								<div class="col-inner">
+									<div class="text-center">
+										<h6 class="text-center">The Bronx...</h6>
+										<p>Turkey Bacon, Onion, peppers, cheese, served with a side of bagel</p>
+									</div>
+								</div>
+							</div>
+							<div class="col col-md-4 col-lg-4">
+								<div class="col-inner">
+									<img src="res/sp2.jpg" class="img-responsive sp-image" />
+								</div>
+							</div>
+						</div>
+						<div class="row d-flex justify-content-center">
+							<div class="col col-md-4 col-lg-4">
+								<div class="col-inner">
+									<img src="res/sp3.jpg" class="img-responsive sp-image" />
+								</div>
+							</div>
+							<div class="col col-md-4 col-lg-4">
+								<div class="col-inner">
+									<div class="text-center">
+										<h6 class="text-center">Breakfast...</h6>
+										<p>Bacon Egg and Cheese on a bagel</p>
+									</div>
+								</div>
+							</div>
+						
+						</div>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div> 
+		
+		
+				<!-- MENU DISPLAY-->
+				<div id="menu-section">
+					<div class="container">
+						<div class="row">
+							<div class="col col-sm-6 col-md-4 col-lg-4 d-flex justify-content-around">
+								<div class="card bg-dark" style="width: 18rem;">
+									<div class="card-header text-white ">Our Cream Cheese Spreads</div>
+									<ul class="list-group list-group-flush">
+									  <li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+									   
+									
+									</ul>
+								</div>
+							</div>
+							<div class="col col-sm-6 col-md-4 col-lg-4 d-flex justify-content-around">
+								<div class="card bg-dark card-menu-item" style="width: 18rem;">
+									<div class="card-header text-white">Our Cream Cheese Spreads</div>
+									<ul class="list-group list-group-flush">
+									  <li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+									   
+									
+									</ul>
+								</div>
+							</div>
+							<div class="col col-sm-6 col-md-4 col-lg-4 d-flex justify-content-around">
+								<div class="card bg-dark" style="width: 18rem;">
+									<div class="card-header text-white">Our Cream Cheese Spreads</div>
+									<ul class="list-group list-group-flush">
+									  <li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+									   
+									
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col col-sm-6 col-md-4 col-lg-4 d-flex justify-content-around">
+								<div class="card bg-dark" style="width: 18rem;">
+									<div class="card-header text-white">Our Cream Cheese Spreads</div>
+									<ul class="list-group list-group-flush">
+									  <li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+									   
+									
+									</ul>
+								</div>
+							</div>
+							<div class="col col-sm-6 col-md-4 col-lg-4 d-flex justify-content-around">
+								<div class="card bg-dark card-menu-item" style="width: 18rem;">
+									<div class="card-header text-white">Our Cream Cheese Spreads</div>
+									<ul class="list-group list-group-flush">
+									  <li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+									   
+									
+									</ul>
+								</div>
+							</div>
+							<div class="col col-sm-6 col-md-4 col-lg-4 d-flex justify-content-around">
+								<div class="card bg-dark " style="width: 18rem;">
+									<div class="card-header text-white">Our Cream Cheese Spreads</div>
+									<ul class="list-group list-group-flush">
+									  <li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+										<li class="list-group-item align-items-center">
+									 <p class="mb-0 pb-0">Butter and Jelly
+										 <span class="badge badge-primary badge-pill price float-right">1.50</span>
+									 </p>
+									 
+									   <hr class="m-0 p-0 bg-dark"> 
+									  <p>Bagel with Butter or Jelly</p>
+									  </li>
+									  
+									   
+									
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+		
+				<footer id="footer" id="foot" class="page-footer font-small blue pt-4">
+
+			<!-- Footer Links -->
+			<div class="container ">
+
+				<!-- Grid row -->
+					<div class="row">
+
+					<!-- Grid column -->
+						<div class="col-md-6 mt-md-0 mt-3">
+
+						<!-- Content -->
+							<h5 class="text-uppercase footer-open">Opening Hours</h5>
+							<ul>
+								<li>MONDAY<span class="time"
+								
+								>6:00AM-5:00PM</span></li>
+								<li>TUESDAY<span class="time">6:00AM-5:00PM</span></li>
+								<li>WENDESDAY<span class="time" >6:00AM-5:00PM</span></li>
+								<li>THURSDAY<span class="time">6:00AM-5:00PM</span></li>
+								<li>FRIDAY<span class="time">6:00AM-5:00PM</span></li>
+								<li>SATURDAY<span class="time">6:00PM-3:00PM</span></li>
+								<li>SUNDAY<span class="time">6:00PM-3:00PM</span></li>
+								
+								
+							
+							</ul>
+
+						</div>
+					<!-- Grid column -->
+
+						<hr class="clearfix w-100 d-md-none pb-3">
+
+						<!-- Grid column -->
+						<div class="col-md-6 mb-md-0 mb-3">
+							<h5 class="text-uppercase text-center">Contact</h5>
+							<ul class="list-unstyled text-center">
+								<li>718-975-5101</li>
+								<li>1728 Eastchester Road, Bronx, NY 10461</li>
+								
+							
+							</ul>
+						
+
+							<!-- Links -->
+							<h5 class="text-uppercase text-center">Links</h5>
+
+							<ul class="list-unstyled text-center">
+								<li>
+									<a href="orderonline.html">Order Online</a>
+								</li>
+								<li>
+									<a  class="text-dark px-5" href="https://www.instagram.com/hummingcodeweb/ " target="_blank"><i class="layout-icon fab fa-instagram"></i></a>
+								</li>
+							</ul>
+
+						</div>
+						<!-- Grid column -->
+
+					</div>
+			<!-- Grid row -->
+
+			</div>
+			<!-- Footer Links -->
+
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3" >
+			<a href="https://hummingcode.com"><p class="num" >© 2019 HummingCode </p></a>
+			</div>
+			<!-- Copyright -->
+
+		</footer>
+	
+		
+	
+	</body>
+
+</html>

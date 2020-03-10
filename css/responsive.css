@@ -1,0 +1,26 @@
+@media (min-width:1200px){
+	.v-checkered .col-inner div{
+		padding-top:150px;
+	}
+}
+@media (max-width:1199px){
+	.v-checkered .col-inner div{
+		padding-top:100px;
+	}
+}
+@media (max-width:992px){
+	.v-checkered .col-inner div{
+		padding-top:75px;
+	}
+}
+@media (max-width:768px){
+	.v-checkered .col-inner div{
+		padding-top:75px;
+	}
+	
+	#img-about{
+		padding:20px;
+		width:90%;
+	}
+}
+

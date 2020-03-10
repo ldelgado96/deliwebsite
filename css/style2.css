@@ -1,0 +1,174 @@
+/****Constant Styles*******/
+h1,.nav-name{
+	
+	font-family:'Playfair Display', serif;
+	!letter-spacing:2px;
+	color:#60412b;
+}
+
+h3,h4,h5{
+	font-family:'Playfair Display', serif;
+	!letter-spacing:0.5px;
+	color:#9d5933;
+	
+}
+
+h2{
+	font-family:'Playfair Display', serif;
+	color:#60412b;
+}
+
+p {
+	font-family:'Playfair Display', serif;
+	letter-spacing:0.5px;
+}
+
+
+/******Navigation*****/
+
+.topbrand{
+	
+	font-family:'Playfair Display', serif;
+	letter-spacing:2px;
+	
+}
+
+.topbrand img{
+	height:25px;
+}
+
+/*********Welcome header*******/
+
+.welcome{
+	background:url(../res/cofeebg.jpg);
+	background-color:#9d5933; /* light light pink*/
+	background-blend-mode:multiply;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	min-height:50vh;
+}
+
+#title{
+	color:#dde2e2;
+}
+
+.subtitle{
+	color:#dde2e2;
+}
+
+#order-btn{
+	background-color:#dde2e3;
+    display: inline-block;
+    padding: 1em 1.5em;
+    font-size: 0.625rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius:5px;
+    cursor: pointer;
+	
+	
+}
+
+
+/*****About Section*******/
+#about-section{
+	background-color:#F8F8F8;
+	min-height:50vh;
+}
+/*********** Our Specialties Section *****/
+
+.specialties{
+	padding:25px;
+	
+}
+
+.specialties p{
+	text-align:justify;
+}
+/************* Our recommendations Section ***********/
+#specialties2-section{
+	padding:25px;
+}
+
+
+
+/*****Get to work with us ***/
+.bg-image{
+	background-image:url("imgs/WP1.png");
+	padding:100px;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover; 
+	
+	z-index:-1;
+}
+
+
+/**MENU **/
+.price{
+	position:relative;
+	top:5px;
+}
+
+@media (max-width:768px){
+	
+	.card-menu-item{
+	
+	margin-top:50px;
+	margin-bottom:50px;
+}
+}
+
+
+
+
+/** Footer **/
+.page-footer{
+	background-color:#F8F8F8;
+	font-family:'Lora',serif;
+	font-weight:400;
+	color: black;
+	font-size:1rem;
+	margin:0;
+	
+}
+
+ul{
+	list-style:none;
+}
+
+.time{
+	float:right;
+	padding-right:30px;
+}
+.footer-open{
+	text-align:center;
+	padding-bottom:5px;
+	
+}
+
+.page-footer a{
+	text-align:center !important;
+	color:#60412b !important;
+}
+.page-footer a:hover {
+	
+	color:pink !important;
+}
+
+.footer-copyright{
+	color:#fff;
+	background-color: #60412b !important;
+	
+}
+
+.num{
+	color:white !important;
+	text-decoration:none;
+	
+}
